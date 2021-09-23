@@ -1,0 +1,338 @@
+
+.container{
+    max-width: 100%;
+    display: flex;
+}
+.container-1{
+    max-width: 100%;
+    background-color: white;
+}
+.nav-list{
+    background-color: white;
+    border: 1px solid white;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+} 
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item:nth-child(1){
+    margin-right: auto;
+    margin-left: 2rem;
+}
+.box-1{
+    width: 95%;
+    height: 500px;
+    background-color: rgb(241, 233, 233);
+    margin: auto;
+}
+.top-box-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.top-box-left{
+    order: 1;
+    flex: 1;
+    border: 1px grey;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+}
+.top-box-left img {
+    width: 100%;
+    height: auto;
+  }
+.top-box-center{
+    order: 2;
+    flex: 1;
+    border: 1px grey;
+    background-color: white;
+    margin-top: 1rem;
+}
+.top-box-right{
+    order: 3;
+    flex: 1;
+    border: 1px grey;
+    background-color: white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.proxy{
+    margin-left: 50px;
+    color: #003368;
+}
+#button-1, #button-2{
+    justify-content: center;
+    align-items: center;
+    background-color: #2e65c5;
+    border-radius: 5px;
+    color: white;
+    margin-left: 50px;
+}
+h2{
+    text-align: start;
+    color: rgb(233, 122, 103);
+    margin-left: 50px;
+}
+button{
+    color: #2e65c5;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #2e65c5;
+    border-style: solid;
+}
+.bottom-box-1{
+    width: 97.5%;
+    background-color: white;
+    border: 1px grey;
+    margin: 1rem;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p, a {
+    padding-left: 20px;
+    text-decoration: none;
+}
+.bottom-box-1 h3{
+    padding-left: 20px;
+    text-decoration: none;
+}
+h4{
+    color: #003368;
+}
+.top-box-2{
+    width: 100%;
+    height: 25px;
+    border: 1px grey;
+    background-color: #003368;
+    color: rgb(226, 220, 220);
+    
+}
+.bottom-box-2{
+    width: 100%;
+    background-color:white;
+    border: 1px grey; 
+}
+.bottom-box-2  tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-spacing: 3px;
+    overflow-x: auto;
+    
+}
+.top-box-center th{
+color: grey;
+}
+.bottom-box-2 th{
+    color: #003368;
+}
+.bottom-box-2 td{
+    color: grey;
+}
+.top-box-3{
+    width: 100%;
+    height: 25px;
+    border: 1px grey;
+    background-color: #003368;
+    color: rgb(226, 220, 220);
+}
+.bottom-box-3 th{
+    color: #003368;
+}
+.bottom-box-3 td{
+    color: grey;
+}
+.bottom-box-3  tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.top-box-4{
+    width: 100%;
+    height: 25px;
+    border: 1px grey;
+    background-color: #003368;
+    color: rgb(226, 220, 220);
+}
+.bottom-box-4 td{
+    color: grey;
+}
+.top-box-5{
+    width: 100%;
+    height: 25px;
+    border: 1px grey;
+    background-color: #003368;
+    color: rgb(226, 220, 220);
+}
+.bottom-box-5{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    border: 1px grey; 
+}
+.bottom-box-5 th{
+    color: #003368;
+}
+.bottom-box-5 td{
+    color: grey;
+}
+.bottom-box-5  tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.box-6{
+    width: 95%;
+    height: auto;
+    background-color: rgb(241, 233, 233);
+    margin: auto;
+}
+.damage-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.damage-box-left{
+    order: 1;
+    flex: 1;
+    border: 1px  grey;
+    margin-left: 1rem;
+    background-color: white;
+}
+.damage-box-center{
+    order: 2;
+    flex: 1;
+    border: 1px grey;
+    background-color: white;
+    
+}
+.damage-box-right{
+    order: 3;
+    flex: 2;
+    border: 1px grey;
+    background-color: white;
+    margin-right: 1rem;  
+}
+.damage-box-left img {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    justify-content:right;
+    align-items:flex-end;
+  }
+.damage-box-center h3{
+    color: rgb(238, 103, 54);
+    text-align: left;
+}
+.damage-box-right img{
+    width: 200px;
+    height: auto;
+    justify-content:right;
+    align-items:flex-end;
+    padding:20px;
+    margin: auto;
+}
+.damage-box-right{
+    display: flex;
+    flex-direction: column;
+}
+.tire-wheel-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.tire-wheel-box-left{
+    order: 1;
+    flex: 1;
+    border: 1px  grey;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+.tire-wheel-box-center{
+    order: 2;
+    flex: 1;
+    border: 1px  grey;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.tire-wheel-box-right{
+    order: 3;
+    flex: 1;
+    border: 1px grey;
+    background-color: white;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.tire-wheel-box-left img{
+    width: 200px;
+    height: auto;
+    justify-content:right;
+    align-items:flex-end;
+    padding:20px;
+    margin: auto;
+}
+.tire-wheel-box h3{
+    color: rgb(238, 103, 54);
+    text-align: left;
+}
+.box-7{
+    max-width:97.5%;
+    margin:30px;
+}
+.top-box-7{
+    height: 25px;
+    border: 1px grey;
+    background-color: #003368;
+    color: rgb(226, 220, 220);
+}
+.bottom-box-7{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.bottom-box-7-left{
+    order: 1;
+    flex: 1;
+    border: 1px  grey;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    
+}
+.bottom-box-7-center{
+    order: 2;
+    flex: 1;
+    border: 1px  grey;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.bottom-box-7-right{
+    order: 3;
+    flex: 1;
+    border: 1px grey;
+    background-color: white;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.bottom-box-7 img{
+    width: 300px;
+    height: 200px;
+    margin: 1rem; 
+}
+.bottom-box-7 a{
+    padding-left: 0px;
+}
+.box-7 p{
+    text-align: right;
+} 
